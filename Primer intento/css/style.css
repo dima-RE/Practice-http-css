@@ -1,0 +1,31 @@
+:root{
+    --color-burdeo: #864000;
+    --color-rojo: #d44000;
+    --color-naranjo: #ff7a00;
+    --color-light: #ffefcf;
+}
+/*colorhunt.co*/
+
+/* selector por naturaleza */
+/*css3generator*/
+header{
+    background: var(--color-burdeo);
+    color: var(--color-light);
+    text-align: center;
+}
+
+#medio{
+    background: var(--color-naranjo);
+}
+
+img{
+    /*no aplicar width y heght a una imagen*/
+    width: 200px;
+    height: auto;
+    border: 10px double var(--color-rojo);
+    border-radius: 20px 50px 20px 50px;
+}
+
+div{
+    text-align: center;
+}

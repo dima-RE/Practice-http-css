@@ -1,0 +1,30 @@
+:root{
+    --color-amarillo: #fed049;
+    --color-primario: #007580;
+    --color-secundario: #282846;
+    --color-light: #d8ebe4;
+}
+
+/* selector por naturaleza */
+header{
+    background: var(--color-primario);
+    color: var(--color-light);
+    text-align: center;
+}
+
+#subtitulo{
+    color: var(--color-light);
+    background: var(--color-secundario);
+}
+#contenedor-imagen{
+    text-align: center;
+}
+#foto-perfil{
+    width: 300px;
+    height: auto;
+    border: 10px solid var(--color-amarillo);
+    border-radius: 20px 0px 20px 0px;
+    -webkit-box-shadow: 10px 10px 30px 10px #5E5E5E;
+    box-shadow: 10px 10px 30px 10px #5E5E5E;
+}
+
